@@ -11,6 +11,6 @@ public class DesktopLauncher {
 		config.setWindowedMode(800,480);
 		config.setTitle("Drop");
 		config.setForegroundFPS(60);
-		new Lwjgl3Application(new MyGdxGame(), config);
+		new Lwjgl3Application(new Drop(), config);
 	}
 }
